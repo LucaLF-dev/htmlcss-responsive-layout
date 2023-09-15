@@ -2,6 +2,11 @@
 
     /* HEADER */
     
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .hamburger-menu {
         display: flex;
     }
@@ -17,6 +22,12 @@
 @media (min-width: 810px) {
     
     /* HEADER */
+     
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .hamburger-menu {
      display: flex;
@@ -32,6 +43,11 @@
 
    /* HEADER */
    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
    .col-nav .navbar-list {
     display: flex;
     gap: 30px;
@@ -39,5 +55,19 @@
 
     .hamburger-menu {
         display: none;
+    }
+
+    /* SECTION SKILLS */
+
+    .col.col-8 {
+        flex-basis: calc((100% / 12) * 8); 
+    }
+
+    .col.col-card-body {
+        width: 50%;
+    }
+
+    .col.col-card-image {
+        width: 50%;
     }
 }

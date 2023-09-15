@@ -18,6 +18,7 @@ menu {
 
 img {
     width: 100%;
+    display: block;
 }
 
 a {
@@ -26,9 +27,7 @@ a {
     display: block;
 }
 
-figure > img {
-    display: block;
-}
+
 
 /* palette colori */
 
@@ -39,6 +38,7 @@ figure > img {
     --yellow:#FDC15F;
     --dark-grey:#333333;
     --light:#FFFFFF;
+    
 
 }
 
@@ -64,13 +64,9 @@ figure > img {
     display: inline-block;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
-/* .col-4 {
+.col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
 
@@ -78,13 +74,11 @@ figure > img {
     flex-basis: calc((100% / 12) * 6);
 }
 
-.col-8 {
-    flex-basis: calc((100% / 12) * 8);
-}
+
 
 .col-12 {
     flex-basis: calc((100% / 12) * 12);
-} */
+}
 
 /* utility classes */
 
@@ -105,6 +99,12 @@ figure > img {
     background-color: white;
     border-radius: 20px;
     padding: 0 18px;
+}
+
+.button-blue {
+    display: inline-block;
+    background-color: var(--blue);
+    color: white;
 }
 
 h3 {
@@ -152,7 +152,13 @@ main > section:nth-child(odd) {
 
 /* SECTION SKILLS */
 
+.section-skills .row-card {
+    background-color: var(--light-blue);
+}
 
+.card-image-phone {
+    width: 50%;
+}
 
 
 /* debug */
