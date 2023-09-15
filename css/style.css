@@ -104,12 +104,18 @@ figure > img {
 /* header */
 .page-header {
     background-color: var(--blue);
+    color: white;
+    padding: 20px 0;
 }
 
 .navbar-list {
     display: flex;
-    gap: 22px;
+    gap: 23px;
     align-items: center;
+}
+
+.navbar-list > li {
+    line-height: 40px;
 }
 
 /* debug */
