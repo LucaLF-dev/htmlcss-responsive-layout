@@ -65,7 +65,6 @@ a {
 }
 
 
-
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -154,12 +153,18 @@ main > section:nth-child(odd) {
 
 .section-skills .row-card {
     background-color: var(--light-blue);
+    border-radius: 20px;
+    padding: 0 25px;
+
 }
 
-.card-image-phone {
-    width: 50%;
+.row.row-wrapper {
+    padding: 0 25px;
 }
 
+.col-card-body, .col-card-image {
+    padding-top: 40px;
+}
 
 /* debug */
 
