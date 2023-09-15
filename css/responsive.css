@@ -2,22 +2,36 @@
 
     /* HEADER */
     
-
+    .col-nav > .navbar-list{
+        display: none;
+    }
     
+    .page-header .nav-container{
+        padding: 0 40px;
+    }
 }
 
 @media (min-width: 810px) {
     
     /* HEADER */
 
- }
+    .col-nav > .navbar-list {
+        display: none;
+    }
+
+    .page-header .nav-container{
+        padding: 0 40px;
+    }
+}
 
 
 @media (min-width: 1920px) { 
 
    /* HEADER */
 
-   
+   .col-nav > .hamburger-menu {
+      display: none;
+   }
 
 
 }
