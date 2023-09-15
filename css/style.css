@@ -147,12 +147,12 @@ main > section:nth-child(odd) {
 .debug .container,
  .debug .container-medium,
  .debug .container-small  {
-    border: 1px solid var(--yellow);
+    border: 1px solid greenyellow;
     padding: 10px;
 }
 
 .debug .row {
-    border: 1px solid var(--purple);
+    border: 1px solid black;
     padding: 10px;
 }
 .debug [class^="col"] {
