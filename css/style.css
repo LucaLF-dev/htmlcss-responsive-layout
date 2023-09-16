@@ -65,10 +65,6 @@ section {
 }
 
 
-.col-6 {
-    flex-basis: calc((100% / 12) * 6);
-}
-
 
 
 .col-12 {
@@ -87,10 +83,15 @@ section {
 
 .flex-item {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .text-align {
     text-align: center;
+}
+
+.align-stretch {
+    align-items: stretch;
 }
 
 /* component classes */
@@ -173,6 +174,8 @@ main > section:nth-child(odd) {
 .col-card-body >  .card-text{
     padding: 40px 0;
 }
+
+
 
 
 

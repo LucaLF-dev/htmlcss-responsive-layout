@@ -2,8 +2,8 @@
 
     /* HEADER */
     
-    header {
-        padding: 0 30px;
+    .page-header {
+        padding: 20px 30px;
     }
 
     .row {
@@ -77,10 +77,8 @@
         width: 100%;
     }
     
-    
-
     .col .card-image-phone {
-        max-width: 280px;
+        max-width: 50%;
     }
     
 
@@ -112,14 +110,30 @@
         margin: 0 auto;
        
     }
+    
+    .row-card{
+        display: flex;
+        flex-wrap: nowrap;
 
-     .col.col-8 {
+    }
+
+    .col.col-8 {
         flex-basis: calc((100% / 12) * 8); 
     }
 
+    .col-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    
     .col.col-4 {
         flex-basis: calc((100% / 12) * 4);
+        height: 100%;
     }
+    
+    
+
+    
+    
 
     
 
