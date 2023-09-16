@@ -44,11 +44,11 @@ a {
 
 /* layouts */
 
-.container-lg {
+/* .container-large {
     max-width: 1220px;
     margin: 0 auto;
-    padding: 0 40px;
-}
+   
+} */
 
 .container-medium {
     max-width: 1050px;
@@ -60,14 +60,10 @@ a {
     margin: 0 auto;
 }
 
-.col {
-    display: inline-block;
+section {
+    padding: 0 30px;
 }
 
-
-.col-4 {
-    flex-basis: calc((100% / 12) * 4);
-}
 
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
@@ -87,6 +83,14 @@ a {
 
 .align-center {
     align-items: center;
+}
+
+.flex-item {
+    display: flex;
+}
+
+.text-align {
+    text-align: center;
 }
 
 /* component classes */
@@ -151,36 +155,51 @@ main > section:nth-child(odd) {
 
 /* SECTION SKILLS */
 
+.section-skills {
+    padding-top: 48px;
+    padding-bottom: 102px;
+}
+
 .section-skills .row-card {
     background-color: var(--light-blue);
     border-radius: 20px;
-    padding: 0 25px;
-
 }
 
-.row.row-wrapper {
-    padding: 0 25px;
+.col-card-body {
+    padding: 40px  25px;
+    
 }
 
-.col-card-body, .col-card-image {
-    padding-top: 40px;
+.col-card-body >  .card-text{
+    padding: 40px 0;
 }
+
+
+
+
+
+
 
 /* debug */
 
 .debug .container,
  .debug .container-medium,
  .debug .container-small  {
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     padding: 10px;
 }
 
 .debug .row {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
 }
 .debug [class^="col"] {
-    border: 1px solid orange;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+.debug .col.col-card-body {
+    border: 2px solid red ;
     padding: 10px;
 }
 
