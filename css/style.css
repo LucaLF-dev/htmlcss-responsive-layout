@@ -19,7 +19,10 @@ menu {
 img {
     width: 100%;
     display: block;
+   
 }
+
+
 
 a {
     text-decoration: none;
@@ -50,7 +53,7 @@ a {
    
 } */
 
-.container-medium {
+/* .container-medium {
     max-width: 1050px;
     margin: 0 auto;
 }
@@ -58,7 +61,7 @@ a {
 .container-small {
     max-width: 880px;
     margin: 0 auto;
-}
+} */
 
 section {
     padding: 0 30px;
@@ -145,11 +148,11 @@ section p {
 
 /* MAIN  */
 
-main > section:nth-child(even) {
+main > section:nth-child(odd) {
     background-color: var(--light);
 }
 
-main > section:nth-child(odd) {
+main > section:nth-child(even) {
     background-color: var(--purple);
 }
 
@@ -174,6 +177,8 @@ main > section:nth-child(odd) {
 .col-card-body >  .card-text{
     padding: 40px 0;
 }
+
+/* SECTION PLANNIG */
 
 
 
@@ -201,7 +206,7 @@ main > section:nth-child(odd) {
     padding: 10px;
 }
 
-.debug .col.col-card-body {
+.debug .col.col-card-body, .card {
     border: 2px solid red ;
     padding: 10px;
 }

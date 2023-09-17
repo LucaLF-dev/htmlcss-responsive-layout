@@ -119,6 +119,8 @@
 
     .col.col-8 {
         flex-basis: calc((100% / 12) * 8); 
+       
+        
     }
 
     .col-6 {
@@ -127,7 +129,7 @@
     
     .col.col-4 {
         flex-basis: calc((100% / 12) * 4);
-        height: 100%;
+        
     }
     
     
