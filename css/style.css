@@ -116,12 +116,12 @@ section {
 
 h3 {
     font-size: 22px;
-    color: currentColor;
+    
 }
 
-section p {
+section  {
     font-size: 18px;
-    color: currentColor;
+    
 }
 
 /* HEADER*/
@@ -180,8 +180,14 @@ main > section:nth-child(even) {
 
 /* SECTION PLANNIG */
 
+.card-body-plannig .card-body-title{
+    color: var(--light);
+    padding: 10px;
+}
 
-
+.section-planning .card-body-caption{
+   text-align: center;
+}
 
 
 
