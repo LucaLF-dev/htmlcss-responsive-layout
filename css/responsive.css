@@ -21,10 +21,18 @@
 
     /* SECTION SKILLS */
     
-
      .row-card.flex-item {
         display: inline-block;
     }
+
+    /* SECTION PLANNIG */
+
+    .container-small {
+        max-width: 315px;
+        margin:0 auto;
+    }
+
+    
 }
     
 
@@ -81,7 +89,21 @@
         max-width: 50%;
     }
     
+    /*  SECTION PLANNIG */ 
 
+    .container.container-small {
+        max-width: 750px;
+        margin:0 auto;
+    }
+
+    .card.card-white {
+        padding:35px 35px;
+    }
+   
+    .col .col-image {
+        padding: 0 35px;
+    }
+    
 } 
 
 
@@ -133,8 +155,39 @@
     }
     
     
+      /*  SECTION PLANNIG */ 
 
+    .container.container-small {
+        max-width: 880px;
+        margin:0 auto;
+    }
+ 
+    .card-image > img {
+        max-width: 205px;
+    }
+
+    .card.card-white  {
+       max-width: 407px;
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       
+    }
+   
+    .col.col-card {
+        padding-left: 60px;
+        padding-top: 310px;
+    }
+
+    .col.col-planning {
+        padding-top:  110px; ;
+    }
+   
+    .col.col-image {
+        padding: 0;
+    }
     
+
     
 
     

@@ -114,6 +114,16 @@ section {
     color: white;
 }
 
+.button-mini {
+    background-color:var(--purple);
+    border-radius: 100%;
+    padding: 0 15px;
+    display: inline-block;
+   
+
+}
+
+
 h3 {
     font-size: 22px;
     
@@ -180,15 +190,38 @@ main > section:nth-child(even) {
 
 /* SECTION PLANNIG */
 
-.card-body-plannig .card-body-title{
+.section-planning  {
+    padding-top:57px;
+    padding-bottom: 57px;
+}
+
+.col-planning {
+    padding-bottom:34px;
+}
+
+.col-body .col-body-planning {
     color: var(--light);
-    padding: 10px;
+}
+
+.col-body-planning > h2 {
+    padding-top: 90px;
+    padding-bottom: 55px ;
 }
 
 .section-planning .card-body-caption{
    text-align: center;
+   padding-top: 30px;
 }
 
+.card.card-white {
+    background-color: var(--light);
+    border-radius: 20px;
+    padding: 35px 5px;
+}
+
+.body-caption-title, .body-caption-text {
+    margin-bottom: 35px;
+}
 
 
 
@@ -203,7 +236,7 @@ main > section:nth-child(even) {
     padding: 10px;
 }
 
-.debug .row {
+/* .debug .row {
     border: 2px solid black;
     padding: 10px;
 }
@@ -215,7 +248,7 @@ main > section:nth-child(even) {
 .debug .col.col-card-body, .card {
     border: 2px solid red ;
     padding: 10px;
-}
+} */
 
 
 
