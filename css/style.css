@@ -188,6 +188,17 @@ main > section:nth-child(even) {
     padding: 40px 0;
 }
 
+.col-card-body .icon-card-body {
+    font-size: 80px;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.col-card-body h3, .icon-card-body {
+    color: var(--blue);
+}
+
+
 /* SECTION PLANNIG */
 
 .section-planning  {
