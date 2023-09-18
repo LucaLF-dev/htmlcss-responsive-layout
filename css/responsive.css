@@ -162,13 +162,16 @@
         margin:0 auto;
     }
  
-    .card-image > img {
-        max-width: 205px;
+   
+
+    .card-image img {
+        width: 205px;
     }
 
     .card.card-white  {
        max-width: 407px;
        display: flex;
+       justify-content: center;
        align-items: center;
        flex-wrap: wrap;
        
