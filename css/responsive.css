@@ -30,7 +30,16 @@
         margin:0 auto;
     }
 
+    .col-12 {
+        flex-basis: 100%;
+    }
     
+    .section-partners .row-card {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+   
 }
     
 
@@ -63,9 +72,12 @@
 
 
     
-    
+    .col.col-6 {
+        flex-basis: calc((100% / 12) * 6); 
+    }
 
-    .row-card .col-12 {
+
+    .col-12 {
         flex-basis: calc(100%);
     }
 
@@ -131,26 +143,10 @@
     .row-card{
         display: flex;
         flex-wrap: nowrap;
-
     }
 
-    .col.col-8 {
-        flex-basis: calc((100% / 12) * 8); 
-       
-        
-    }
-
-    .col-6 {
-        flex-basis: calc((100% / 12) * 6);
-    }
     
-    .col.col-4 {
-        flex-basis: calc((100% / 12) * 4);
-        
-    }
-    
-    
-      /*  SECTION PLANNIG */ 
+/*  SECTION PLANNIG */ 
 
     .container.container-small {
         max-width: 880px;
@@ -182,7 +178,12 @@
     }
     
 
-    
+    /* SECTION PARTNERS*/
+
+    .section-partners .container {
+        max-width: 1220px;
+        margin: 0 auto;
+    }
 
     
 

@@ -71,10 +71,6 @@ section {
 
 
 
-.col-12 {
-    flex-basis: calc((100% / 12) * 12);
-}
-
 /* utility classes */
 
 .justify-between {
@@ -235,6 +231,54 @@ main > section:nth-child(even) {
     margin-bottom: 35px;
 }
 
+/* SECTION PARTNER */
+
+.section-partener {
+    padding: 60px 0;
+}
+
+h2 {
+    color: var(--purple);
+}
+
+.card.card-citation {
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.card-citation {
+   color: var(--light);
+}
+
+.card-image-container {
+    display: inline-block;   
+    text-align: center;
+   
+}
+
+.card-image-container img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-image {
+    padding-bottom:20px; ;
+}
+
+.card-citation .card-citation-body > blockquote{
+    margin-bottom: 30px;
+}
+
+.col-testimonial .col-body {
+    padding: 30px 0;
+}
+
+.col-body >h2 {
+    margin-bottom: 30px;
+}
 
 
 
