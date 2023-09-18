@@ -40,6 +40,16 @@
         gap: 32px;
     }
    
+    .card.card-benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .row-benefit {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
     
 
@@ -112,6 +122,19 @@
         padding: 0 35px;
     }
     
+    /* SECTION BENEFIT */
+
+    .row.row-benefit {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .col.col-benefit {
+       flex-basis: 50%;
+       padding: 12px;
+    }
 } 
 
 
@@ -186,7 +209,10 @@
     }
 
     
-
+    .col.col-benefit {
+        flex-basis: calc((100% / 12) * 4);
+        padding: 12px;
+    }
     
 
     

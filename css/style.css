@@ -65,7 +65,7 @@ figcaption {
     margin: 0 auto;
 } */
 
-section {
+main section {
     padding: 0 30px;
 }
 
@@ -116,10 +116,14 @@ section {
     border-radius: 100%;
     padding: 0 15px;
     display: inline-block;
-   
-
 }
 
+.button--purple {
+    display: inline-block;
+    background-color: var(--purple);
+    border-radius: 20px;
+    
+}
 
 h3 {
     font-size: 22px;
@@ -233,8 +237,8 @@ main > section:nth-child(even) {
 
 /* SECTION PARTNER */
 
-.section-partener {
-    padding: 60px 0;
+.section-partners {
+    padding: 60px 30px;
 }
 
 h2 {
@@ -280,7 +284,30 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* <!-- SECTION BENEFIT --> */
 
+.section-benefit {
+    padding: 60px 30px;
+}
+
+.col-benefit-title {
+    color: var(--light);
+    padding-bottom: 40px;
+}
+
+.section-benefit .col-benefit-body {
+    text-align: center;
+}
+
+.card.card-benefit {
+    background-color: var(--light);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.card-benefit .card-body-title, .card-text {
+    margin-bottom: 40px;
+}
 
 
 /* debug */
